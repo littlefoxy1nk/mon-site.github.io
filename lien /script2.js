@@ -7,7 +7,6 @@ function darkMode() {
 
     if (!dark) {
         background.style.backgroundImage = "url('images/beige.jpeg')";
-        galerie.style.backgroundImage = "url('images/beige.jpeg')";
         paragraphs.forEach(function (p) {
             p.style.color = "#faeee0";
         });
