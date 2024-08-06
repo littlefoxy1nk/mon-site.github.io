@@ -148,11 +148,11 @@ p{
         list-style-type: none;
         }
     
-    button {
+    #dark {
         background-color: #faeee0;
         color: #fa7878;
         text-decoration: none;
-        margin-left: 300px;
+        text-align: center;
    
     }
     
