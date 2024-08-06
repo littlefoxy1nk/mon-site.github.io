@@ -94,6 +94,7 @@ main {
     background-color: #fa7878;
     cursor: pointer;
 }
+
 footer {
     margin-top: 150px;
     margin-bottom: 5%;
@@ -126,9 +127,7 @@ footer a {
     text-decoration: none;
     color: #D9D8D4;
     cursor: pointer;
-  
 }
-
 footer ul {
     list-style-type: none;
     }
@@ -139,4 +138,6 @@ footer button {
     margin-left: 300px;
 
 }
+
+
 
