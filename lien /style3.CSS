@@ -154,11 +154,12 @@ background-size: cover;
 }
 
 footer {
-    margin-top: 150px;
+    margin-top: 1050px;
     margin-bottom: 5%;
     padding: 10px 50px;
     color: #faeee0;
     background-color:#fa7878;
+   
 }
 
 footer .go {
@@ -192,11 +193,5 @@ footer ul {
     list-style-type: none;
     }
 
- body #dark{
-    background-color: #faeee0;
-    color: #fa7878;
-    text-decoration: none;
-    margin-left: 300px;
 
-}
 
