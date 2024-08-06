@@ -147,7 +147,8 @@ p{
     footer ul {
         list-style-type: none;
         }
-    footer button {
+    
+    button {
         background-color: #faeee0;
         color: #fa7878;
         text-decoration: none;
