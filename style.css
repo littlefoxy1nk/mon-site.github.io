@@ -59,6 +59,7 @@ p{
 .intro p {
     flex: 7;
     margin-right: 10%;
+    text-align: justify;
 }
 
 
@@ -99,8 +100,10 @@ p{
     flex: 5;
 }
 .content .plus .sujet a {
-    text-decoration:none;
-    color: inherit;
+    background-color: #fa7878;
+    padding:10px;
+    border-radius: 25px;
+    color:#faeee0;
     margin-left: 150px;
     cursor: pointer;
     }

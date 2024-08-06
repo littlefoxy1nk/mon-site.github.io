@@ -27,6 +27,12 @@ header h6 {
     padding-left: 35% ;
     margin-top: 0%;
 }
+p {
+    color: #faeee0;
+    text-align: justify;
+    padding:20px
+
+}
 
 main {
     padding-top: 70px;
@@ -42,7 +48,8 @@ main {
 .explications h2 {
     font-family:"Edu AU VIC WA NT Hand", cursive;
     text-transform: uppercase;
-    margin-left: 20px;
+    color: #faeee0;
+    padding: 10px;
 
 }
 .explications .title {
@@ -72,16 +79,19 @@ main {
 .plus h2 {
     font-family:"Edu AU VIC WA NT Hand", cursive;
     text-transform: uppercase;
-    padding-left: 20px;
+    color: #faeee0;
+    padding: 10px;
     
 }
 .plus h3 {
     font-family:"Edu AU VIC WA NT Hand", cursive;
-    padding-left: 20px;
+    color: #faeee0;
+    padding:10px;
 }
 .plus a {
     text-decoration:wavy;
-    color:black;
+    color:#faeee0;
+    background-color: #fa7878;
     cursor: pointer;
 }
 

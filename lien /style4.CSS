@@ -34,7 +34,7 @@ main {
     margin: 200px;
     display: grid;
     grid-template-rows: repeat(5,250px);
-    grid-template-columns: 50px ,50px, 850px;
+    grid-template-columns: 250px 500px;
     
 }
 
@@ -51,44 +51,48 @@ main {
     grid-column: 1/2;
     grid-row: 2/3;
     background-color: #9F6F51;
+    padding: 30px;
 
 }
 .contact {
     grid-column: 1/2;
     grid-row: 3/4;
     background-color: #9F6F51;
+    padding: 30px;
 }
 .interet {
     grid-column: 1/2;
     grid-row: 4/5;
     background-color: #9F6F51;
+    padding: 30px;
 }
 .interet ul {
     list-style-type:none;
-    margin-left: 10px;
+    padding: 30px;
 }
 
 .langues {
     grid-column: 1/2;
     grid-row: 5/6;
     background-color: #9F6F51;
+    padding: 30px;
 }
 .langues ul {
     list-style-type:none;
-    margin-left: 10px;
+    padding: 30px;
 }
 .nom{
     grid-column: 2/4;
     grid-row: 1/2;
     font-size: 50px;
-    margin-left: 30px;
+    padding-left:100px;
     
 }
 .formation {
     grid-column: 2/4;
     grid-row: 2/3;
     font-size: 20px;
-    margin-left: 50px;
+    padding-left: 100px;
 
 }
 .formation ul {
@@ -99,10 +103,8 @@ main {
     grid-column: 2/4;
     grid-row: 3/4;
     font-size: 20px;
-    margin-left: 50px;
-    margin-top: 40px;
-
-
+    padding-left: 100px;
+    padding-top: 50px;
 }
 .expe ul {
     list-style-type: none;
@@ -112,7 +114,7 @@ main {
     grid-column: 2/3;
     grid-row: 5/6;
     font-size: 20px;
-    margin-left: 50px;
+    padding-left: 100px;
 
 }
 .qual ul {
