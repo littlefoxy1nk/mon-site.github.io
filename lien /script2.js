@@ -3,18 +3,18 @@ let dark = false;
 
 function darkMode() {
     let background = document.body;
-    let paragraphs = document.querySelectorAll('p');
+    let cases = document.getElementsByClassName('explications')
 
     if (!dark) {
         background.style.backgroundImage = "url('images/beige.jpeg')";
-        paragraphs.forEach(function (p) {
-            p.style.color = "#faeee0";
+        explications.forEach(function (explications) {
+        explications.style.color = "#545454";
         });
     }
     else {
         background.style.backgroundImage = ""; 
-        paragraphs.forEach(function (p) {
-            p.style.color = ""; 
+        cases.forEach(function (explications) {
+            explications.style.background= ""; 
         });
     }
 
