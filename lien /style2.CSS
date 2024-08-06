@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&family=Quicksand&display=swap');
+
+body {
+    font-family:"Quicksand", sans-serif; 
+    background-image: url('images/beige.png');
+}
+
+header { 
+    margin-top: 5% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #faeee0;
+    background-color:#fa7878;
+    
+}
+header h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+header h4 {
+    font-size: 13px;
+    
+}
+header h6 {
+    font-size: 10px;
+    padding-left: 35% ;
+    margin-top: 0%;
+}
+
+main {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.explications {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.explications h2 {
+    font-family:"Edu AU VIC WA NT Hand", cursive;
+    text-transform: uppercase;
+    margin-left: 20px;
+
+}
+.explications .title {
+    flex: 50%;
+    background-color: #9F6F51;
+    margin-left:20%;
+  
+
+}
+.explications .webdev {
+    flex: 50%;
+    background-color: #9F6F51;
+    text-align: center;
+    margin-right: 20%;
+    border : 10px solid #faeee0;
+    padding-top: 10px;
+
+
+}
+.plus {
+    background-color: #9F6F51;
+    border: 10px solid #cf977a;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+}
+.plus h2 {
+    font-family:"Edu AU VIC WA NT Hand", cursive;
+    text-transform: uppercase;
+    padding-left: 20px;
+    
+}
+.plus h3 {
+    font-family:"Edu AU VIC WA NT Hand", cursive;
+    padding-left: 20px;
+}
+.plus a {
+    text-decoration:wavy;
+    color:black;
+    cursor: pointer;
+}
+
+
+footer {
+    margin-top: 150px;
+    margin-bottom: 5%;
+    padding: 10px 150px;
+    color: #faeee0;
+    background-color:#fa7878;
+}
+
+footer .go {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+footer #contact{
+    margin-top: -20px;
+   flex: 3;
+
+}
+footer #pages {
+    text-align: right;
+    flex: 7;
+    margin-left: -150px;
+}
+footer h1{
+    text-decoration: underline;
+}
+footer a {
+
+    text-decoration: none;
+    color: #D9D8D4;
+    cursor: pointer;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-left: -40px;
+    }
+
