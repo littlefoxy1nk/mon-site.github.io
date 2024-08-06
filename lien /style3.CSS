@@ -157,6 +157,7 @@ footer {
     margin-top: 1500px;
     margin-bottom: 5%;
     padding: 10px 50px;
+    font-family: "Quicksand", sans-serif; ;
     color: #faeee0;
     background-color:#fa7878;
    
@@ -178,7 +179,7 @@ footer #pages {
     flex: 7;
     margin-left: -150px;
 }
-footer h1{
+footer h3{
     text-decoration: underline;
 }
 footer a {
