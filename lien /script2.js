@@ -3,21 +3,19 @@ let dark = false;
 
 function darkMode() {
     let background = document.body;
-    let galerie = document.getElementById("galerie");
     let paragraphs = document.querySelectorAll('p');
 
     if (!dark) {
-        background.style.backgroundColor = "#545454";
+        background.style.backgroundImage = "url('images/beige.jpeg')";
         galerie.style.backgroundImage = "url('images/beige.jpeg')";
         paragraphs.forEach(function (p) {
             p.style.color = "#faeee0";
         });
     }
     else {
-        background.style.backgroundColor = ""; // reset to default
-        galerie.style.backgroundImage = "";
+        background.style.backgroundImage = ""; 
         paragraphs.forEach(function (p) {
-            p.style.color = ""; // reset to default
+            p.style.color = ""; 
         });
     }
 
