@@ -5,7 +5,7 @@ function darkMode() {
     let galerie = document.getElementById("galerie");
     let paragraphs = document.querySelectorAll('p');
 
-    if (!darkMode) {
+    if (!dark) {
         background.style.backgroundColor = "#545454";
         galerie.style.backgroundImage = "url('images/fond3.jpeg')";
         paragraphs.forEach(function(p) {
@@ -19,5 +19,5 @@ function darkMode() {
         });
     }
 
-    darkMode = !darkMode;
+    dark = !dark;
 }
