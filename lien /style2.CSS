@@ -94,12 +94,10 @@ main {
     background-color: #fa7878;
     cursor: pointer;
 }
-
-
 footer {
     margin-top: 150px;
     margin-bottom: 5%;
-    padding: 10px 150px;
+    padding: 10px 50px;
     color: #faeee0;
     background-color:#fa7878;
 }
@@ -124,14 +122,21 @@ footer h1{
     text-decoration: underline;
 }
 footer a {
-
+    text-align: center;
     text-decoration: none;
     color: #D9D8D4;
     cursor: pointer;
+  
 }
 
 footer ul {
     list-style-type: none;
-    margin-left: -40px;
     }
+footer button {
+    background-color: #faeee0;
+    color: #fa7878;
+    text-decoration: none;
+    margin-left: 300px;
+
+}
 
