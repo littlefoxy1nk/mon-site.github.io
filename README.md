@@ -27,15 +27,12 @@ front tech
 
 ## Deployment
 
-To deploy this project run
+j'ai utilisé github page et voiçi le lien du site [mon site
+](https://littlefoxy1nk.github.io/mon-site.github.io/)
 
-```bash
-  npm run deploy
-```
 
 
 ## Authors
 
 - [Hamoir Chloé ](https://www.github.com/littlefoxy1nk)
-
 
