@@ -4,7 +4,8 @@
 function darkMode() {
     let background = document.body;
     let paragraphs = document.querySelectorAll('p');
-    let tirets = document.querySelectorAll('.interet, .langues');
+    let tirets = document.querySelectorAll('.interet,.langues');
+    console.log(tirets)
 
     if (!dark) {
         background.style.backgroundColor = "#545454";
