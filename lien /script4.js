@@ -4,14 +4,14 @@
 function darkMode() {
     let background = document.body;
     let paragraphs = document.querySelectorAll('p');
-    let tirets = document.qweryselector('.interet');
+    let tirets = document.querySelectorAll('.interet, .langues');
 
     if (!dark) {
         background.style.backgroundColor = "#545454";
         paragraphs.forEach(function(p) {
             p.style.color = "#faeee0";
         });
-        tirets.forEach(function(tirets) {
+        tirets.forEach(function(t) {
             tirets.style.color="#545454"
         })
     } else {
@@ -19,7 +19,7 @@ function darkMode() {
         paragraphs.forEach(function(p) {
             p.style.color = ""; 
         });
-        tirets.forEach(function(tirets) {
+        tirets.forEach(function(t) {
             tirets.style.color="#545454"
         })
     }
