@@ -7,12 +7,12 @@ function darkMode() {
     if (!dark) {
         background.style.backgroundImage = url('images/beige.jpeg');
         backbox.forEach(function(boite) {
-            p.style.color = "#faeee0";
+            boite.style.backgroundColor = "#faeee0";
         });
     } else {
         background.style.backgroundColor = ""; // reset to default
         backbox.forEach(function(boite) {
-            p.style.color = ""; // reset to default
+            boite.style.backgroundcolor = ""; // reset to default
         });
     }
 
