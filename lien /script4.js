@@ -12,7 +12,7 @@ function darkMode() {
             p.style.color = "#faeee0";
         });
         tirets.forEach(function(t) {
-            tirets.style.color="#545454"
+            t.style.color="#545454"
         })
     } else {
         background.style.backgroundColor = ""; 
@@ -20,7 +20,7 @@ function darkMode() {
             p.style.color = ""; 
         });
         tirets.forEach(function(t) {
-            tirets.style.color="#545454"
+            t.style.color="#545454"
         })
     }
 

@@ -20,4 +20,4 @@ function darkMode() {
 }
 
 let name = prompt("bonjour et bienvenu! avant que vous enn sachiez plus sur moi, dites moi au moins votre nom");
-alert("bienvenu" + name + "!");
+alert("bienvenu " + name + ", j espère que vous apprécierez la visite !");
