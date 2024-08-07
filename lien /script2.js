@@ -5,7 +5,7 @@ function darkMode() {
     let backbox = document.querySelectorAll('boite');
 
     if (!dark) {
-        background.style.backgroundImage = url('images/beige.jpeg');
+        background.style.backgroundImage = url('lien /images/beige.jpeg');
         backbox.forEach(function(boite) {
             boite.style.backgroundColor = "#faeee0";
         });
