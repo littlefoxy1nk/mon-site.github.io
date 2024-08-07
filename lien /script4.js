@@ -11,7 +11,7 @@ function darkMode() {
         paragraphs.forEach(function(p) {
             p.style.color = "#faeee0";
         });
-        tirets.style.color='#faeee0'
+        tirets.style.color='#faeee0';
     } else {
         background.style.backgroundColor = ""; 
         paragraphs.forEach(function(p) {
