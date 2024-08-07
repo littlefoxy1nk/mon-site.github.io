@@ -19,5 +19,5 @@ function darkMode() {
     dark = !dark;
 }
 
-let name = prompt("bonjour et bienvenu! avant que vous enn sachiez plus sur moi, dites moi au moins votre nom");
-alert("bienvenu " + name + ", j espère que vous apprécierez la visite !");
+let name = prompt("Bonjour! Moi c'est chloé. Avant que vous en sachiez plus sur moi, dites moi au moins votre nom ");
+alert("Bienvenue " + name + ", j'espère que vous apprécierez la visite !");
