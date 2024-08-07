@@ -52,6 +52,7 @@ main {
     grid-row: 2/3;
     background-color: #9F6F51;
     padding: 30px;
+    color: #faeee0;
 
 }
 .contact {
@@ -59,6 +60,7 @@ main {
     grid-row: 3/4;
     background-color: #9F6F51;
     padding: 30px;
+    color: #faeee0;
 }
 .interet {
     grid-column: 1/2;
@@ -69,6 +71,7 @@ main {
 .interet ul {
     list-style-type:none;
     padding: 30px;
+    color: #faeee0;
 }
 
 .langues {
@@ -80,6 +83,7 @@ main {
 .langues ul {
     list-style-type:none;
     padding: 30px;
+    color: #faeee0;
 }
 .nom{
     grid-column: 2/4;
