@@ -40,26 +40,26 @@ main {
     flex-direction: column;
     align-items: center;
 }
-.explications {
+.expl {
     display: flex;
     justify-content:center;
     margin-bottom: 20px;
 }
-.explications h2 {
+.expl h2 {
     font-family:"Edu AU VIC WA NT Hand", cursive;
     text-transform: uppercase;
     color: #faeee0;
     padding: 10px;
 
 }
-.explications .title {
+.expl .title {
     flex: 50%;
     background-color: #9F6F51;
     margin-left:20%;
   
 
 }
-.explications .webdev {
+.expl .webdev {
     flex: 50%;
     background-color: #9F6F51;
     text-align: center;
