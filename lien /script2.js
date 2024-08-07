@@ -2,17 +2,17 @@ let dark = false;
 
 function darkMode() {
     let background = document.body;
-    let backbox = document.querySelectorAll('boite');
+    let backbox = document.querySelectorAll('.boite');
 
     if (!dark) {
-        background.style.backgroundImage = url('lien /images/beige.jpeg');
+        background.style.backgroundImage = "url('lien /images/beige.jpeg')";
         backbox.forEach(function(boite) {
-            boite.style.backgroundColor = "#faeee0";
+            boite.style.backgroundColor = "#545454";
         });
     } else {
-        background.style.backgroundColor = ""; // reset to default
+        background.style.backgroundColor = ""; 
         backbox.forEach(function(boite) {
-            boite.style.backgroundcolor = ""; // reset to default
+            boite.style.backgroundcolor = ""; 
         });
     }
 
