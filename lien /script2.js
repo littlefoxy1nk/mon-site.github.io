@@ -6,13 +6,13 @@ function darkMode() {
 
     if (!dark) {
         background.style.backgroundImage = "url('lien /images/beige.jpeg')";
-        backbox.forEach(function(boite) {
-            boite.style.backgroundColor = "#545454";
+        backbox.forEach(function(backbox) {
+            backbox.style.backgroundColor = "#545454";
         });
     } else {
-        background.style.backgroundColor = ""; 
-        backbox.forEach(function(boite) {
-            boite.style.backgroundcolor = ""; 
+        background.style.backgroundImage = ""; 
+        backbox.forEach(function(backbox) {
+            backbox.style.backgroundcolor = ""; 
         });
     }
 
